@@ -1,0 +1,39 @@
+.whole {
+    text-align: center;
+    background-color: hsl(212, 45%, 89%)
+}
+
+.QR {
+    margin-top: 15px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.content {
+    font-family: 'Outfit', sans-serif;
+    background-color: white;
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    margin: 25px 0px 0px 40px;
+}
+
+#style {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration-color: hsl(218, 44%, 22%);
+}
+
+#des {
+    font-size: 15px;
+    -webkit-text-fill-color: hsl(220, 15%, 55%);
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        margin: 100px 0px 0px 450px;
+    }
+}
+.attribution { font-size: 12px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
